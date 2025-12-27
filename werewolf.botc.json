@@ -1,0 +1,191 @@
+[
+  {
+    "id": "werwolf",
+    "name": "Werwolf",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf_good.png?raw=true"
+    ],
+    "team": "demon",
+    "edition": "",
+    "ability": "Jede Nacht*, wähle einen Spieler; er stirbt.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "Die Werwölfe wählen ein Spieler; er stirbt. Markiere ihn mit :reminder:.",
+    "reminders": ["Opfer"],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "grosser_boeser_wolf",
+    "name": "Großer, böser Wolf",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf_good.png?raw=true"
+    ],
+    "team": "minion",
+    "edition": "",
+    "ability": "Jede Nacht*, falls am vorherigen Tag keinen bösen Spieler hingerichtet wurde, wähle einen Spieler; er stirbt.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "Wurde am vorherigen Tag keinen bösen Spieler hingerichtet, der Große, böse Wolf wählt einen Spieler; er stirbt.",
+    "reminders": ["Hingerichtet"],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "urwolf",
+    "name": "Urwolf",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf_good.png?raw=true"
+    ],
+    "team": "minion",
+    "edition": "",
+    "ability": "Einmal im Spiel, in der Nacht, darfst du das letzte Opfer der Werwölfe als böse wiederbeleben.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "Der Urwolf, darf das letzte Opfer der Werwölfe als böse wiederbeleben. Markiere das Opfer mit :reminder: und den Urwolf mit :reminder:.",
+    "reminders": ["Ist böse", "Keine Fähigkeit"],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "weisser_werwolf",
+    "name": "Weißer Werwolf",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf_good.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/werewolf.png?raw=true"
+    ],
+    "team": "townsfolk",
+    "edition": "",
+    "ability": "Du bist ein Werwolf. Jede zweite Nacht, darfst du einen böser Spieler auswählen; er stirbt.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": ["Opfer"],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "dorfbewohner",
+    "name": "Dorfbewohner",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/villager.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/villager_evil.png?raw=true"
+    ],
+    "team": "townsfolk",
+    "edition": "",
+    "ability": "Keine besondere Fähigkeit.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "seherin",
+    "name": "Seherin",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/seer.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/seer_evil.png?raw=true"
+    ],
+    "team": "townsfolk",
+    "edition": "",
+    "ability": "Jede Nacht*, wähle einen Spieler; du lernst seinen Charakter.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "Die Seherin wählt einen Spieler; Sie lernt dessen Charakter.",
+    "otherNight": 0,
+    "otherNightReminder": "Die Seherin wählt einen Spieler; Sie lernt dessen Charakter.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "amor",
+    "name": "Amor",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/cupid.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/cupid_evil.png?raw=true"
+    ],
+    "team": "townsfolk",
+    "edition": "",
+    "ability": "In der ersten Nacht, wähle zwei Spieler; sie sind verkuppelt. Stirbt einer der Verkuppelten, stirbt dessen Partner auch.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "Der Amor wählt zwei Spieler; sie sind verkuppelt. Markiere Sie mit :reminder:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": ["Verkuppelt"],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "hexe",
+    "name": "Hexe",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/witch.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/witch_evil.png?raw=true"
+    ],
+    "team": "townsfolk",
+    "edition": "",
+    "ability": "Jede Nacht*, lerne das Opfer der Werwölfe. Einmal im Spiel, darfst du das Opfer wiederbeleben. Einmal im Spiel darfst du ein Spieler auswählen; er stirbt.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "Die Hexe darf einen Spieler auswählen; er stirbt.",
+    "otherNight": 0,
+    "otherNightReminder": "Die Hexe lernt das Opfer der Werwölfe. Einmal im Spiel, darf sie das Opfer wiederbeleben. Einmal im Spielen darf sie einen Spieler auswählen; er stirbt.",
+    "reminders": ["Kein Heiltrank", "Kein Gift"],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  },
+  {
+    "id": "jaeger",
+    "name": "Jäger",
+    "image": [
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/hunter.png?raw=true",
+      "https://github.com/pirasleandro/werewolf-botc-icons/blob/main/hunter_evil.png?raw=true"
+    ],
+    "team": "townsfolk",
+    "edition": "",
+    "ability": "Wenn du stirbst, wähle einen Spieler; er stirbt.",
+    "flavor": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "jinxes": [],
+    "special": []
+  }
+]
